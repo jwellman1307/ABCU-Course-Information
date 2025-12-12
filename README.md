@@ -1,3 +1,35 @@
-# ABCU-Course-Information
+# ABCU Course Information System
 
-In this course, I learned about different types of data structures and how to apply them to base python code in eclipse. The project consisted of creating a data structure that could alphanumberize a list of courses taken from a CSV file to display to the user as course information. I approached this problem by analyzing three data stuctures that included a vector, hash, and binary search tree. Data structures are importantnt to understand becuase each data structure has a use depending on the client's needs. In this project, I went with a binary search tree due to that BST are already alphanumerize. Roadblocks that I ran into were how to start the original code and add to an alreacy existing base code. I was able to get over this roadblock by starting with the pseudocode while anaylzing the code prior to any adjustments made to the code. The work done on project expanded my approach to designing software and developing programs by understanding that memory usage and choice of data structures can effect the overall program and must be considered as part of the design. My work in this project has evolved in the way that I write programs by allowing me discover what way works best for me analyze and understand code. 
+## Overview
+The ABCU Course Information System is a C++ console application designed to efficiently store, sort, and retrieve course information from a CSV file. The project demonstrates the practical application of data structures to solve real-world data organization and retrieval problems.
+
+The system reads course data, organizes it using a Binary Search Tree (BST), and allows users to view course listings in alphanumeric order or retrieve detailed information for a specific course.
+
+## Features
+- Import course data from a CSV file
+- Store course information using a Binary Search Tree
+- Display all courses in alphanumeric order
+- Retrieve and display individual course details
+- Efficient search and memory usage through data structure selection
+
+## Technologies Used
+- **C++**
+- **Binary Search Tree (BST)**
+- **CSV File Processing**
+- **Visual Studio**
+- **Object-Oriented Programming Principles**
+
+## Design Decisions
+Multiple data structures were evaluated during development, including vectors, hash tables, and binary search trees. A Binary Search Tree was selected due to its ability to maintain sorted order while supporting efficient insertion and search operations.
+
+This design choice allows the application to:
+- Display courses in natural alphanumeric order
+- Scale effectively as the dataset grows
+- Maintain clean and predictable performance characteristics
+
+## What This Project Demonstrates
+- Practical use of data structures in C++
+- Algorithmic thinking and performance tradeoff analysis
+- File input processing and data validation
+- Clean, readable, and maintainable code organization
+- Real-world problem solving using foundational CS concepts
